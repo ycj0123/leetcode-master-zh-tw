@@ -7,7 +7,7 @@ KamaCoder 網址：[https://kamacoder.com](https://kamacoder.com)
 
 錄友們在求職的時候會發現，很多公司的筆試題和面試題都是 ACM 模式，而大家習慣去 LeetCode 刷題，LeetCode 是核心程式碼模式。
 
-當大家在做 ACM 模式的演算法（algorithm）題時，需要自己處理資料的輸入輸出，**如果沒有接觸過的話，還是挺難的**。
+當大家在做 ACM 模式的演算法題時，需要自己處理資料的輸入輸出，**如果沒有接觸過的話，還是挺難的**。
 
 [知識星球](https://programmercarl.com/other/kstar.html)裡很多錄友的日常打卡中，都表示被 ACM 模式折磨過：
 

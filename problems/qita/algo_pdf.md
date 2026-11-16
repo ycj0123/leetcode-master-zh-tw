@@ -1,6 +1,6 @@
 # 《程式碼隨想錄》完整版 PDF 下載 | 合集下載 | 百度雲 |
 
-《程式碼隨想錄》已經是很多學習演算法（algorithm）的小夥伴刷題必備的資料，也得到非常多的好評，這是 Carl 繼續創作的動力。
+《程式碼隨想錄》已經是很多學習演算法的小夥伴刷題必備的資料，也得到非常多的好評，這是 Carl 繼續創作的動力。
 
 <div align="center"><img src='../../pics/algo/20210918214517.png' width=500 alt=''> </img></div>
 <div align="center"><img src='../../pics/algo/20210919000313.png' width=500 alt=''> </img></div>

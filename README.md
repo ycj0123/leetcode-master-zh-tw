@@ -1,5 +1,5 @@
 
-# 程式碼隨想錄 · 全網最強資料結構（data structure）演算法（algorithm）學習路線
+# 程式碼隨想錄 · 全網最強資料結構演算法學習路線
 
 <p align="center">
   <a href="https://keetcoder.com/">🌍 海外英文版</a> ·

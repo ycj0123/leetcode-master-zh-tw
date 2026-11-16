@@ -156,7 +156,7 @@ public:
 
 ## 總結
 
-大家應該發現了，程式設計語言（programming language）中一個普通容器（container）的 insert、delete 的使用，都可能對寫出來的演算法（algorithm）有很大影響！
+大家應該發現了，程式設計語言（programming language）中一個普通容器（container）的 insert、delete 的使用，都可能對寫出來的演算法有很大影響！
 
 如果拋開語言談演算法，除非從來不用程式碼寫演算法純分析，**否則的話，語言功底不到位 O(n) 的演算法可以寫出 O(n^2) 的效能**。
 

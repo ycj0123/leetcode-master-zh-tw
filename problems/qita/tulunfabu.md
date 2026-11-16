@@ -18,7 +18,7 @@
 * 互斥集（disjoint set）
 * 最小生成樹（minimum spanning tree, MST）
 * 拓蹼排序（topological sort）
-* 最短路徑（shortest path）演算法（algorithm）
+* 最短路徑（shortest path）演算法
 
 ![](../../pics/algo/20240613104436.png)
 
@@ -127,7 +127,7 @@ KamaCoder 專門給大家準備了 ACM 輸入輸出模式，**圖論在筆試還
 
 圖論的輸入難在圖的儲存結構，**如果沒有練習過相鄰串列（adjacency list）和相鄰矩陣（adjacency matrix），很多錄友是寫不出來的**。
 
-而 LeetCode 上是直接給好現成的資料結構（data structure），可以直接用，所以練習不到圖的輸入，也練習不到相鄰串列和相鄰矩陣。
+而 LeetCode 上是直接給好現成的資料結構，可以直接用，所以練習不到圖的輸入，也練習不到相鄰串列和相鄰矩陣。
 
 ACM 輸入輸出模式是最考察候選人對程式碼細節掌握程度的。
 

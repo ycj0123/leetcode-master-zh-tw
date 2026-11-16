@@ -17,7 +17,7 @@ LeetCode 上的題目，輸入測試案例就給了一個陣列（array），怎
 
 ![](../../pics/algo/20210914222335.png)
 
-一直跟著公眾號學演算法（algorithm）的錄友應該知道，我在[二元樹：建構二元樹登場！](https://mp.weixin.qq.com/s/Dza-fqjTyGrsRw4PWNKdxA)，已經講過，**只有中序與後序和中序與前序可以確定一棵唯一的二元樹。前序和後序是不能確定唯一的二元樹的**。
+一直跟著公眾號學演算法的錄友應該知道，我在[二元樹：建構二元樹登場！](https://mp.weixin.qq.com/s/Dza-fqjTyGrsRw4PWNKdxA)，已經講過，**只有中序與後序和中序與前序可以確定一棵唯一的二元樹。前序和後序是不能確定唯一的二元樹的**。
 
 那麼[538.把二元搜尋樹轉換為累加樹](https://mp.weixin.qq.com/s/rlJUFGCnXsIMX0Lg-fRpIw)的範例中，為什麼一個序列（sequence）（陣列或者是字串（string））就可以確定二元樹了呢？
 
