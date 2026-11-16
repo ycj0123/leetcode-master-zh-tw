@@ -1,124 +1,124 @@
 
-# 手把手带你实现存储引擎
+# 手把手帶你實作 storage engine
 
 
-之前在 [刷题攻略登上榜首](https://mp.weixin.qq.com/s/wZRTrA9Rbvgq1yEkSw4vfQ)这篇文章中说过，Carl不仅写了刷题攻略，还写了很多优秀的开源项目。
+之前在 [刷題攻略登上榜首](https://mp.weixin.qq.com/s/wZRTrA9Rbvgq1yEkSw4vfQ)這篇文章中說過，Carl 不僅寫了刷題攻略，還寫了很多優秀的開放原始碼（open source）專案。
 
-在星球里也有很多小伙伴问我关于一些，项目的选择，**相信如果是C++后台开发路线的话，基本都会去做WebServer 服务器**。
+在知識星球裡也有很多夥伴問我關於專案的選擇，**相信如果是 C++ 後端（back end）開發路線的話，基本都會去做 WebServer 伺服器（server）**。
 
-我在[知识星球](https://programmercarl.com/other/kstar.html)给小伙伴答疑，包括看了这么多简历，**发现WebServer这个项目是真的多，有点烂大街了**。
+我在[知識星球](https://programmercarl.com/other/kstar.html)給夥伴答疑，包括看了這麼多履歷，**發現 WebServer 這個專案是真的多，有點太常見了**。
 
-所以今天我把自己曾经开发的 KV存储引擎 给大家介绍一波，大家可以拿去当做自己的项目经验。
+所以今天我把自己曾經開發的 KV storage engine 給大家介紹一下，大家可以拿去當作自己的專案經驗。
 
-**相信只要是搞后端的同学应该都要熟悉非关系型数据库redis吧，那么应该知道redis的存储引擎是跳表实现的**。
+**相信只要是做後端的同學應該都要熟悉 NoSQL 資料庫（database）Redis 吧，那麼應該知道 Redis 的 storage engine 是跨越列表（skip list）實作的**。
 
-现在很多云厂商提供的云数据库，其底层都是用了Facebook开源的rocksdb，而rocksdb的底层是Google开源的Levedb，**而Levedb的核心实现也是跳表**。
+現在很多雲端服務商提供的雲端資料庫，其底層都是用了 Facebook 開放原始碼的 RocksDB，而 RocksDB 的底層是 Google 開放原始碼的 LevelDB，**而 LevelDB 的核心實作也是跨越列表**。
 
-所以大家应该知道跳表的应用有多么的广泛了。
+所以大家應該知道跨越列表的應用有多麼廣泛了。
 
-那么为什么这个项目非常合适大家用来做自己的项目经验呢？
+那麼為什麼這個專案非常適合大家用來做自己的專案經驗呢？
 
-如果你是后端开发的话，你在简历上一定会写熟悉或者了解redis吧，那么可以进一步介绍一下自己的项目用跳表实现了redis核心引擎。
+如果你是後端開發的話，你在履歷上一定會寫熟悉或者了解 Redis 吧，那麼可以進一步介紹一下自己的專案用跨越列表實作了 Redis 核心引擎。
 
-面试官一定会非常感兴趣的，然后你就可以和面试官侃侃而谈你是如何用跳表实现的这个KV存储引擎的。
+面試官一定會非常感興趣的，然後你就可以和面試官侃侃而談你是如何用跨越列表實作這個 KV storage engine 的。
 
-**瞬间逼格就高了，有木有！**
+**瞬間格調就高了，有沒有！**
 
-我在18年的时候，用跳表实现了一个轻量级KV存储引擎，代码也写的非常规范，熟悉我的录友应该知道，我的代码严格按照Google C++ style来的。
+我在 18 年的時候，用跨越列表實作了一個輕量級 KV storage engine，程式碼也寫得非常規範，熟悉我的錄友應該知道，我的程式碼嚴格按照 Google C++ style 來的。
 
-因为当时我是想把这个项目国际化的，注释和readme都是英文的，但最近我把这个项目又汉化回来了，方便大家理解。
+因為當時我是想把這個專案國際化的，註解和 README 都是英文的，但最近我把這個專案又翻譯成中文了，方便大家理解。
 
-给大家先随意看一段代码，我在注释中其实就已经在讲解跳表的运行原理了。代码使用了C++模板编程，这样接口支持任意类型的数据（包括自己自定义的类）
+給大家先隨意看一段程式碼，我在註解中其實就已經在講解跨越列表的執行原理了。程式碼使用了 C++ 模板（template）程式設計，這樣介面（interface）支援任意類型的資料（包括自己自訂的類別（class））
 
 ![](https://file1.kamacoder.com/i/algo/20221104121454.png)
 
-项目地址：**https://github.com/youngyangyang04/Skiplist-CPP**
+專案網址：**https://github.com/youngyangyang04/Skiplist-CPP**
 
-这个项目中的代码质量是非常高的，如果无论是C++特性的运用，还是代码风格都是绝对拿得出手的！
+這個專案中的程式碼品質是非常高的，無論是 C++ 特性的運用，還是程式碼風格都是絕對拿得出手的！
 
-好了，牛逼吹完，然后给大家正式介绍一下这个项目
+好了，自誇完畢，然後給大家正式介紹一下這個專案
 
-## KV存储引擎
+## KV storage engine
 
-本项目就是基于跳表实现的轻量级键值型存储引擎，使用C++实现。插入数据、删除数据、查询数据、数据展示、数据落盘、文件加载数据，以及数据库大小显示。
+本專案就是基於跨越列表實作的輕量級鍵值（key-value）型 storage engine，使用 C++ 實作。支援插入資料、刪除資料、查詢資料、資料展示、資料寫入磁碟、檔案載入資料，以及資料庫大小顯示。
 
-在随机写读情况下，该项目每秒可处理啊请求数（QPS）: 24.39w，每秒可处理读请求数（QPS）: 18.41w
+在隨機讀寫情況下，該專案每秒可處理寫入請求數（QPS）：24.39w，每秒可處理讀取請求數（QPS）：18.41w
 
-## 项目展示
+## 專案展示
 
 ![](https://file1.kamacoder.com/i/algo/20221104121509.png)
 
-文件功能：
+檔案功能：
 
-* main.cpp 包含skiplist.h使用跳表进行数据操作
-* skiplist.h 跳表核心实现
-* README.md 中文介绍
-* README-en.md 英文介绍
-* bin 生成可执行文件目录
-* makefile 编译脚本
-* store 数据落盘的文件存放在这个文件夹
-* stress_test_start.sh 压力测试脚本
-* LICENSE 使用协议
+* `main.cpp` 包含 `skiplist.h` 使用跨越列表進行資料操作
+* `skiplist.h` 跨越列表核心實作
+* `README.md` 中文介紹
+* `README-en.md` 英文介紹
+* `bin` 產生可執行檔（executable file）目錄（directory）
+* `makefile` 編譯腳本（script）
+* `store` 資料寫入磁碟的檔案存放在這個資料夾
+* `stress_test_start.sh` 壓力測試（stress test）腳本
+* `LICENSE` 使用協定（protocol）
 
 
-## 提供接口
+## 提供介面
 
-* insertElement（插入数据）
-* deleteElement（删除数据）
-* searchElement（查询数据）
-* displayList（展示已存数据）
-* dumpFile（数据落盘）
-* loadFile（文件加载数据）
-* size（返回数据规模）
+* `insertElement`（插入資料）
+* `deleteElement`（刪除資料）
+* `searchElement`（查詢資料）
+* `displayList`（展示已存資料）
+* `dumpFile`（資料寫入磁碟）
+* `loadFile`（檔案載入資料）
+* `size`（回傳資料規模）
 
-## 存储引擎数据表现
+## storage engine 資料表現
 
 ### 插入操作
 
-跳表树高：18
+跨越列表樹高：18
 
-采用随机插入数据测试：
+採用隨機插入資料測試：
 
 
-|插入数据规模（万条） |耗时（秒） |
+|插入資料規模（萬筆） |耗時（秒） |
 |---|---|
 |10 |0.316763 |
 |50 |1.86778 |
 |100 |4.10648 |
 
 
-每秒可处理写请求数（QPS）: 24.39w
+每秒可處理寫入請求數（QPS）：24.39w
 
-### 取数据操作
+### 取資料操作
 
-|取数据规模（万条） |耗时（秒） |
+|取資料規模（萬筆） |耗時（秒） |
 |---|---|
 |10|0.47148 |10|
 |50|2.56373 |50|
 |100|5.43204 |100|
 
-每秒可处理读请求数（QPS）: 18.41w
+每秒可處理讀取請求數（QPS）：18.41w
 
-## 项目运行方式
+## 專案執行方式
 
 ```
 make            // complie demo main.cpp
 ./bin/main      // run
 ```
 
-运行截图：（其中展示了插入数据，删除数据，展示数据等等功能）
+執行螢幕截圖：（其中展示了插入資料，刪除資料，展示資料等等功能）
 
 ![](https://file1.kamacoder.com/i/algo/20221104121525.png)
 
-如果想自己写程序使用这个kv存储引擎，只需要在你的CPP文件中include skiplist.h 就可以了。
+如果想自己寫程式使用這個 KV storage engine，只需要在你的 CPP 檔案中 `#include "skiplist.h"` 就可以了。
 
-可以运行如下脚本测试kv存储引擎的性能（当然你可以根据自己的需求进行修改）
+可以執行如下腳本測試 KV storage engine 的效能（當然你可以根據自己的需求進行修改）
 
 ```
 sh stress_test_start.sh
 ```
 
-项目地址：**https://github.com/youngyangyang04/Skiplist-CPP**
+專案網址：**https://github.com/youngyangyang04/Skiplist-CPP**
 
-**大家白嫖的同时，别忘了给个star，fork，支持一波！** 录友如果最后拿到offer了，也别忘了和我道个喜哦。
+**大家免費使用的同時，別忘了給個 star、fork，支持一下！** 錄友如果最後拿到 offer 了，也別忘了和我報個喜喔。
 

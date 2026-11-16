@@ -1,51 +1,51 @@
-# 人生苦短，我用VIM！| 最强vim配置
+# 人生苦短，我用 VIM！| 最強 Vim 組態
 
-> Github地址：[https://github.com/youngyangyang04/PowerVim](https://github.com/youngyangyang04/PowerVim)
-> Gitee地址：[https://gitee.com/programmercarl/power-vim](https://gitee.com/programmercarl/power-vim)
+> GitHub 網址：[https://github.com/youngyangyang04/PowerVim](https://github.com/youngyangyang04/PowerVim)
+> Gitee 網址：[https://gitee.com/programmercarl/power-vim](https://gitee.com/programmercarl/power-vim)
 
-熟悉我的录友，应该都知道我是vim流，无论是写代码还是写文档（Markdown），都是vim，都没用IDE。
+熟悉我的錄友，應該都知道我是 Vim 流，無論是寫程式碼還是寫文件（Markdown），都是 Vim，都沒用 IDE。
 
-但这里我并不是说IDE不好用，IDE在 代码跟踪，引用跳转等等其实是很给力的，效率比vim高。
+但這裡我並不是說 IDE 不好用，IDE 在程式碼追蹤、參考（reference）跳轉等等其實是很給力的，效率比 Vim 高。
 
-我用vim的话，如果需要跟踪代码的话，就用ctag去跳转，虽然很不智能（是基于规则匹配，不是语义匹配），但加上我自己的智能就也能用（这里真的要看对代码的把握程度了）
+我用 Vim 的話，如果需要追蹤程式碼的話，就用 ctags 去跳轉，雖然很不智慧（是基於規則匹配，不是語意匹配），但加上我自己的智慧就也能用（這裡真的要看對程式碼的掌握程度了）
 
-所以连跟踪代码都不用IDE的话，其他方面那我就更用不上IDE了。
+所以連追蹤程式碼都不用 IDE 的話，其他方面那我就更用不上 IDE 了。
 
-## 为什么用VIM
+## 為什麼用 VIM
 
-**至于写代码的效率，VIM完爆IDE**，其他不说，就使用IDE每次还要去碰鼠标，就很让人烦心！（真凸显了程序员的执着）
+**至於寫程式碼的效率，VIM 大勝 IDE**，其他不說，就使用 IDE 每次還要去碰滑鼠，就很讓人煩心！（真凸顯了工程師的執著）
 
-这里说一说vim的方便之处吧，搞后端开发的同学，都得玩linux吧，在linux下写代码，如果不会vim的话，会非常难受。
+這裡說一說 Vim 的方便之處吧，做後端（back end）開發的同學，都得玩 Linux 吧，在 Linux 下寫程式碼，如果不會 Vim 的話，會非常難受。
 
-日常我们的开发机，线上服务器，预发布服务器，都是远端linux，需要跳板机连上去，进行操作，如果不会vim，每次都把代码拷贝到本地，修改编译，在传到远端服务器，还真的麻烦。
+日常我們的開發機、線上伺服器（server）、預發布伺服器，都是遠端 Linux，需要跳板機連上去進行操作，如果不會 Vim，每次都把程式碼複製到本機，修改編譯，再傳到遠端伺服器，還真的麻煩。
 
-使用VIM的话，本地，服务器，开发机，一刀流，无缝切换，爽不。
+使用 VIM 的話，本機、伺服器、開發機，一刀流，無縫切換，爽不。
 
-IDE那么很吃内存，打开个IDE卡半天，用VIM就很轻便了，秒开！
+IDE 那麼吃記憶體（memory），打開個 IDE 卡半天，用 VIM 就很輕便了，秒開！
 
-而且在我们日常开发中，工作年头多了，都会发现没有纯粹的C++，Java开发啥的，就是 C++也得写，Java也得写，有时候写Go起个http服务，写Python处理一下数据，写shell搞个自动部署，编译啥的。 **总是就是啥语言就得写，一些以项目需求为导向！**
+而且在我們日常開發中，工作年頭多了，都會發現沒有純粹的 C++、Java 開發之類的，就是 C++ 也得寫，Java 也得寫，有時候寫 Go 起個 HTTP 服務，寫 Python 處理一下資料，寫 shell 搞個自動部署、編譯什麼的。**總之就是什麼語言都得寫，一切以專案需求為導向！**
 
-写语言还要切换不同的IDE，熟悉不同的操作规则，想想是不是很麻烦。
+寫語言還要切換不同的 IDE，熟悉不同的操作規則，想想是不是很麻煩。
 
-听说好像现在有的IDE可以支持很多语言了，这个我还不太了解，但能确定的是，IDE支持的语言再多，也不会有vim多。
+聽說好像現在有的 IDE 可以支援很多語言了，這個我還不太了解，但能確定的是，IDE 支援的語言再多，也不會有 Vim 多。
 
-**因为vim是编辑器！**，什么都可以写，不同的语言做一下相应的配置就好，写起来都是一样的顺畅。
+**因為 Vim 是編輯器！**什麼都可以寫，不同的語言做一下相應的組態（configuration）就好，寫起來都是一樣的順暢。
 
-应该不少录友感觉vim上快捷键太多了，根本记不过来，其实这和我看IDE是一样的想法，我看IDE上哪些按钮一排一排的也太多了，我都记不过来，所以索性一套vim流 扫遍所有代码，它不香么。
+應該不少錄友感覺 Vim 上捷徑鍵（shortcut key）太多了，根本記不過來，其實這和我看 IDE 是一樣的想法，我看 IDE 上那些按鈕一排一排的也太多了，我都記不過來，所以索性一套 Vim 流掃遍所有程式碼，它不香嗎。
 
-而且IDE集成编译、调试、智能补全、语法高亮、工程管理等等，隐藏了太多细节，使用vim，就都自己配置，想支持什么语言就自己配置，想怎么样就怎么样，需要什么就补什么，这不是很酷么？
+而且 IDE 整合編譯、除錯（debugging）、智慧自動完成（autocomplete）、語法高亮度顯示（syntax highlighting）、專案管理等等，隱藏了太多細節，使用 Vim 就都自己組態，想支援什麼語言就自己組態，想怎麼樣就怎麼樣，需要什麼就補什麼，這不是很酷嗎？
 
-可能有的同学感觉什么都要自己配置，有点恐惧。但一旦配置好的就非常舒服了。
+可能有的同學感覺什麼都要自己組態，有點恐懼。但一旦組態好了就非常舒服了。
 
-**其实工程师就要逢山开路遇水搭桥，这也是最基本的素质！**
+**其實工程師就要逢山開路遇水搭橋，這也是最基本的素質！**
 
-从头打在一个自己的开发利器，再舒服不过了。
+從頭打造一個自己的開發利器，再舒服不過了。
 
 ## PowerVim
 
-这里给大家介绍一下我的vim配置吧，**这套vim配置我已经打磨了将近四年**，不断调整优化，已经可以完全满足工业级打开的需求了。
+這裡給大家介紹一下我的 Vim 組態吧，**這套 Vim 組態我已經打磨了將近四年**，不斷調整最佳化，已經可以完全滿足工業級開發的需求了。
 
-所以我给它起名为PowerVim。一个真正强大的vim。
+所以我給它起名為 PowerVim。一個真正強大的 Vim。
 
 ```
   _____                    __      ___
@@ -56,19 +56,19 @@ IDE那么很吃内存，打开个IDE卡半天，用VIM就很轻便了，秒开�
   |_|   \___/ \_/\_/ \___|_|    \/   |_|_| |_| |_|
 ```
 
-这个配置我开源在Github上，地址：[https://github.com/youngyangyang04/PowerVim](https://github.com/youngyangyang04/PowerVim)
+這個組態我開放原始碼（open source）在 GitHub 上，網址：[https://github.com/youngyangyang04/PowerVim](https://github.com/youngyangyang04/PowerVim)
 
 
 
-来感受一下PowerVim的使用体验，看起来很酷吧！注意这些操作都不用鼠标的，一波键盘控制流！所以我平时写代码是不碰鼠标的！
+來感受一下 PowerVim 的使用體驗，看起來很酷吧！注意這些操作都不用滑鼠的，一波鍵盤控制流！所以我平時寫程式碼是不碰滑鼠的！
 
 ![](https://file1.kamacoder.com/i/algo/vim_overview.gif)
 
-## 安装
+## 安裝
 
-PowerVim的安装非常简单，我已经写好了安装脚本，只要执行以下就可以安装，而且不会影响你之前的vim配置，之前的配置都给做了备份，大家看一下脚本就知道备份在哪里了。
+PowerVim 的安裝非常簡單，我已經寫好了安裝腳本（script），只要執行一下就可以安裝，而且不會影響你之前的 Vim 組態，之前的組態都做了備份，大家看一下腳本就知道備份在哪裡了。
 
-安装过程非常简单：
+安裝過程非常簡單：
 ```bash
 git clone https://github.com/youngyangyang04/PowerVim.git
 cd PowerVim
@@ -77,27 +77,27 @@ sh install.sh
 
 ## 特性
 
-目前PowerVim支持如下功能，这些都是自己配置的：
+目前 PowerVim 支援如下功能，這些都是自己組態的：
 
-* CPP、PHP、JAVA代码补全，如果需要其他语言补全，可自行配置关键字列表在PowerVim/.vim/dictionary目录下
-* 显示文件函数变量列表
-* MiniBuf显示打开过的文件
-* 语法高亮支持C++ (including C++11)、 Go、Java、 Php、 Html、 Json 和 Markdown
-* 显示git状态，和主干或分支的添加修改删除的情况
-* 显示项目文件目录，方便快速打开
-* 快速注释，使用gcc注释当前行，gc注释选中的块
-* 项目内搜索关键字和文件夹
-* 漂亮的颜色搭配和状态栏显示
+* CPP、PHP、Java 程式碼補全，如果需要其他語言補全，可自行組態關鍵字（keyword）串列在 `PowerVim/.vim/dictionary` 目錄（directory）下
+* 顯示檔案函式（function）變數（variable）串列
+* MiniBuf 顯示打開過的檔案
+* 語法高亮度顯示支援 C++ (including C++11)、Go、Java、PHP、HTML、JSON 和 Markdown
+* 顯示 Git 狀態，和主幹或分支（branch）的添加修改刪除的情況
+* 顯示專案檔案目錄，方便快速打開
+* 快速註解，使用 `gcc` 註解當前行，`gc` 註解選中的區塊
+* 專案內搜尋關鍵字和資料夾
+* 漂亮的顏色搭配和狀態列顯示
 
-## 最后
+## 最後
 
-当然 还有很多，我还详细写了PowerVim的快捷键，使用方法，插件，配置，等等，都在Github主页的README上。当时我的Github上写的都是英文README，这次为了方便大家阅读，我又翻译成中文README。
+當然還有很多，我還詳細寫了 PowerVim 的捷徑鍵、使用方法、外掛、組態等等，都在 GitHub 主頁的 README 上。當時我的 GitHub 上寫的都是英文 README，這次為了方便大家閱讀，我又翻譯成中文 README。
 
 ![](https://file1.kamacoder.com/i/algo/20211013102249.png)
 
-Github地址：[https://github.com/youngyangyang04/PowerVim](https://github.com/youngyangyang04/PowerVim)
+GitHub 網址：[https://github.com/youngyangyang04/PowerVim](https://github.com/youngyangyang04/PowerVim)
 
-Gitee地址：[https://gitee.com/programmercarl/power-vim](https://gitee.com/programmercarl/power-vim)
+Gitee 網址：[https://gitee.com/programmercarl/power-vim](https://gitee.com/programmercarl/power-vim)
 
-最后，因为这个vim配置因为我一直没有宣传，所以star数量很少，录友们去给个star吧，真正的开发利器，值得顶起来！
+最後，因為這個 Vim 組態我一直沒有宣傳，所以 star 數量很少，錄友們去給個 star 吧，真正的開發利器，值得頂起來！
 
