@@ -9,13 +9,13 @@
 
 目錄就在影片播放器的右邊，完全按照程式碼隨想錄的順序講解，搭配《程式碼隨想錄》或者程式碼隨想錄網站一起學習，效果更佳！
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230303172430.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20230303172430.png' width=500 alt=''> </img></div>
 
 從 2022 年 5 月份開始決定把《程式碼隨想錄》上的演算法題都由我親自講解一遍。
 
 當時錄了第一期演算法影片「二元搜尋（binary search）」：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230404181703.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20230404181703.png' width=500 alt=''> </img></div>
 
 別看現在這期影片有 10 萬的播放量，那是因為後續錄友們自己找到我的影片來看，一年後才達到 10 萬播放量。
 
@@ -25,31 +25,31 @@
 
 我的影片播放量雖然低，但只要看過影片的錄友，評價都很高。隨便找了幾個最新的留言：
 
-![](https://file1.kamacoder.com/i/algo/20221121094718.png)
+![](../../pics/algo/20221121094718.png)
 
-![](https://file1.kamacoder.com/i/algo/20230222100337.png)
+![](../../pics/algo/20230222100337.png)
 
-![](https://file1.kamacoder.com/i/algo/20230222113111.png)
+![](../../pics/algo/20230222113111.png)
 
-![](https://file1.kamacoder.com/i/algo/20230222163023.png)
+![](../../pics/algo/20230222163023.png)
 
-![](https://file1.kamacoder.com/i/algo/20230223235500.png)
+![](../../pics/algo/20230223235500.png)
 
-![](https://file1.kamacoder.com/i/algo/20230323211739.png)
+![](../../pics/algo/20230323211739.png)
 
-![](https://file1.kamacoder.com/i/algo/20230324150536.png)
+![](../../pics/algo/20230324150536.png)
 
-![](https://file1.kamacoder.com/i/algo/20230325215454.png)
+![](../../pics/algo/20230325215454.png)
 
-![](https://file1.kamacoder.com/i/algo/20230327100147.png)
+![](../../pics/algo/20230327100147.png)
 
-![](https://file1.kamacoder.com/i/algo/20230329101702.png)
+![](../../pics/algo/20230329101702.png)
 
-![](https://file1.kamacoder.com/i/algo/20230404202808.png)
+![](../../pics/algo/20230404202808.png)
 
 當初也是看到大家的留言，我才下定決心繼續更新下去，從去年 5 月份開始，每週堅持更新四期演算法影片，風雨無阻，一直堅持到現在。
 
-![](https://file1.kamacoder.com/i/algo/20230303170120.png)
+![](../../pics/algo/20230303170120.png)
 
 一晃眼大半年過去了，足足更新了 140 期演算法影片，已經涵蓋了[《程式碼隨想錄》紙本版](./publish.md)上全部題目的講解。
 
@@ -81,9 +81,9 @@
 
 但大家上 YouTube 的話，會發現海外經典演算法影片的創作者，都是用一個小白板直接開講。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20220815104735.png' width=500 alt=''> </img></div>
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20220815105050.png' width=500 alt=''> </img></div>
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20220815110945.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20220815104735.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20220815105050.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20220815110945.png' width=500 alt=''> </img></div>
 
 這種講課方式容易走兩個極端，**一種就是非常好，成為經典系列；一種就是被罵講得像垃圾一樣**。
 
@@ -125,7 +125,7 @@
 
 這是我的 GitHub 提交紀錄：（https://github.com/youngyangyang04）
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230303175841.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20230303175841.png' width=500 alt=''> </img></div>
 
 每天或多或少都要最佳化一點點。**每天的量可能不多，但每天都在最佳化**！
 
@@ -136,13 +136,13 @@
 
 再回頭說說目前演算法公開課，其實直到現在我新發的影片播放量也就兩三千。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230303171204.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20230303171204.png' width=500 alt=''> </img></div>
 
 （大家現在去 B 站上看，可能已經上萬播放量，但新發的時候播放量一直都很慘淡）
 
 但為什麼發影片就兩三千播放量，就可以在 B 站聚集 10 萬錄友。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230404205029.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20230404205029.png' width=500 alt=''> </img></div>
 
 對於 B 站十萬粉絲的頻道主來說，好像都得有幾個百萬播放的爆紅影片。
 

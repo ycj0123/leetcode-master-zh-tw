@@ -15,7 +15,7 @@ LeetCode 上的題目，輸入測試案例就給了一個陣列（array），怎
 
 其輸入測試案例，就是用一個陣列來表述二元樹，如下：
 
-![](https://file1.kamacoder.com/i/algo/20210914222335.png)
+![](../../pics/algo/20210914222335.png)
 
 一直跟著公眾號學演算法（algorithm）的錄友應該知道，我在[二元樹：建構二元樹登場！](https://mp.weixin.qq.com/s/Dza-fqjTyGrsRw4PWNKdxA)，已經講過，**只有中序與後序和中序與前序可以確定一棵唯一的二元樹。前序和後序是不能確定唯一的二元樹的**。
 
@@ -24,7 +24,7 @@ LeetCode 上的題目，輸入測試案例就給了一個陣列（array），怎
 很明顯，是系統後台直接明確了建構規則。
 
 再看一下這個輸入序列和對應的二元樹。
-![](https://file1.kamacoder.com/i/algo/20210914222335.png)
+![](../../pics/algo/20210914222335.png)
 
 從二元樹推導到序列，大家可以發現這就是層次序走訪（level order traversal）。
 
@@ -36,7 +36,7 @@ linked storage 就是大家熟悉的二元樹，用指標（pointer）指向左�
 
 順序儲存器就是用一個陣列來存二元樹，其方式如圖所示：
 
-![](https://file1.kamacoder.com/i/algo/20210914223147.png)
+![](../../pics/algo/20210914223147.png)
 
 那麼此時大家是不是應該知道了，陣列如何轉化成二元樹了。**如果父節點（father node）的陣列索引（index）是 i，那麼它的左子節點索引就是 i * 2 + 1，右子節點索引就是 i * 2 + 2**。
 
@@ -80,7 +80,7 @@ TreeNode* construct_binary_tree(const vector<int>& vec) {
 
 這個函式（function）最後回傳的指標就是根節點（root node）的指標，這就是傳入二元樹的格式了，也就是 LeetCode 上的測試案例輸入格式，如圖：
 
-![](https://file1.kamacoder.com/i/algo/20210914224422.png)
+![](../../pics/algo/20210914224422.png)
 
 也有不少同學在做 ACM 模式的題目，就經常疑惑：
 
@@ -176,7 +176,7 @@ int main() {
 
 和 [538.把二元搜尋樹轉換為累加樹](https://mp.weixin.qq.com/s/rlJUFGCnXsIMX0Lg-fRpIw) 中的輸入是一樣的
 
-![](https://file1.kamacoder.com/i/algo/20210914222335.png)
+![](../../pics/algo/20210914222335.png)
 
 這裡可能又有同學疑惑，你這不一樣啊，題目是 `null`，你為什麼用 -1。
 
@@ -184,11 +184,11 @@ int main() {
 
 再來看測試程式碼輸出的效果：
 
-![](https://file1.kamacoder.com/i/algo/20210914230045.png)
+![](../../pics/algo/20210914230045.png)
 
 可以看出和題目中輸入測試案例這個圖是一模一樣的。只不過題目中圖沒有把 null node 畫出來而已。
 
-![](https://file1.kamacoder.com/i/algo/20210914230118.png)
+![](../../pics/algo/20210914230118.png)
 
 大家可以拿我的程式碼去測試一下，跑一跑。
 
@@ -205,7 +205,7 @@ int main() {
 
 **[知識星球](https://mp.weixin.qq.com/s/QVF6upVMSbgvZy8lHZS3CQ)**裡有的錄友已經開始刷第三遍：
 
-![](https://file1.kamacoder.com/i/algo/20210727234031.png)
+![](../../pics/algo/20210727234031.png)
 
 只做過一遍，真的就是懂了一點皮毛，第二遍刷才真的對各個題目有較為深入的理解，也會明白我為什麼要這樣安排刷題的順序了。
 
@@ -419,4 +419,4 @@ func main() {
 ```
 
 -----------------------
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/01二维码.jpg' width=450> </img></div>
+<div align="center"><img src='../../pics/algo/01二维码.jpg' width=450> </img></div>

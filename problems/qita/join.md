@@ -28,10 +28,10 @@
 
 點擊這裡 Fetch upstream。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230721172815.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230721172815.png' width=500 alt=''></img></div>
 
 點擊之後，這裡就會顯示最新的資訊了
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210516213032568.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210516213032568.png' width=500 alt=''></img></div>
 
 注意這時是你的遠端儲存庫為最新版本，本機還不是最新的，本機要 git pull 一下。
 
@@ -39,18 +39,18 @@
 
 如何提交程式碼呢？首先把自己的程式碼提交到自己 fork 的遠端儲存庫中，然後 open pull request，如圖：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210516215102296.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210516215102296.png' width=500 alt=''></img></div>
 
 點擊 open pull request 之後，就是如下畫面，一個 pull request 有多個 commit。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210516215646937.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210516215646937.png' width=500 alt=''></img></div>
 
 然後就是給 pull request 新增備註，pull request 是對本次 commit 的一個總結。如果一個 pull request 就一個 commit，那麼就和 commit 的備註保持一致。然後點擊 create pull request 就可以了
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210516220219891.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210516220219891.png' width=500 alt=''></img></div>
 
 此時你就提交成功了，我會在專案中的 pull requests 處理列表裡看到你的請求。
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210516220502485.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210516220502485.png' width=500 alt=''></img></div>
 
 然後如果你發現自己的程式碼沒有合併，多半是有問題，如果有問題都會在 pull request 裡給出留言的，
 
@@ -78,27 +78,27 @@ C++ 程式碼
 \`\`\`
 
 例如這個 commit，在新增 Java 程式碼的時候，就直接新增程式碼
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210512141514272.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210512141514272.png' width=500 alt=''></img></div>
 
 正確的格式應該是這樣：
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210513101029336.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210513101029336.png' width=500 alt=''></img></div>
 
 一般發現問題，我也會在程式碼中給出評論：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/2021051309401135.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/2021051309401135.png' width=500 alt=''></img></div>
 
 這樣大家也可以學習一些提交程式碼的規範方面的知識
 
 
 有的錄友是新增了程式碼區塊語法，但沒有標記是哪種語言，這樣的話程式碼就不會針對特定語言進行語法高亮度顯示（syntax highlighting）了，也比較影響閱讀，例如：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/2021051214212374.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/2021051214212374.png' width=500 alt=''></img></div>
 
 提交 python 程式碼的話，要註明好是 python2 還是 python3
 
 例如這樣：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210513174147165.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210513174147165.png' width=500 alt=''></img></div>
 
 當然 python2 的話，只這麼寫就行
 
@@ -113,7 +113,7 @@ python 程式碼
 
 有的錄友是一個 pull request 裡只有一個 commit。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210512221535670.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210512221535670.png' width=500 alt=''></img></div>
 
 其實如果大家是平時一天寫了兩三道題目的話，那麼分三個 commit，一個 pull request 提交上來就行。
 
@@ -127,13 +127,13 @@ python 程式碼
 
 例如這位錄友，在提交 Java 程式碼的時候，按照題解的意思對 Java 版本的程式碼進行了註解，這就很棒👍
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210512212151438.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210512212151438.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210513101321112.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210513101321112.png' width=500 alt=''></img></div>
 
 當然如果大家感覺已有的程式碼不符合以上要求的話，例如程式碼思路不夠清晰不夠規範、註解不夠友善，依然歡迎提交最佳化程式碼，要記得詳細註解喔。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210516082342756.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210516082342756.png' width=500 alt=''></img></div>
 
 ### 說明具體是哪種方法
 
@@ -141,10 +141,10 @@ python 程式碼
 
 下面這位錄友做得就很好
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210512221951251.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210512221951251.png' width=500 alt=''></img></div>
 
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210513101551819.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210513101551819.png' width=500 alt=''></img></div>
 
 有的題解是一起給出了多道題目的講解，例如專案中 `0102.二元樹的層次序走訪.md` 中有八道題目，那麼大家新增程式碼的時候應該在程式碼註解上，或者直接寫上是哪個題目的程式碼。
 
@@ -162,7 +162,7 @@ python 程式碼
 
 有一位錄友在提交程式碼的時候會把之前的程式碼做一下規範性的調整，這就很棒。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210514093012603.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210514093012603.png' width=500 alt=''></img></div>
 
 **程式碼規範從你我做起！**
 
@@ -183,10 +183,10 @@ python 程式碼
 在合併的過程中還要處理衝突的程式碼，理解大家程式碼的思路，解決衝突，然後在 LeetCode 提交一下，確保是沒問題的。
 
 例如同一道題目，一位錄友提交了，我還沒處理合併，另一位錄友對這道題也提交了程式碼，這樣就會發生衝突
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210514092248192.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210514092248192.png' width=500 alt=''></img></div>
 
 大家提交程式碼的熱情太高了，我有時候根本處理不過來，但我必須當天處理完，否則第二天程式碼衝突會越來越多。
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210514091457392.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210514091457392.png' width=500 alt=''></img></div>
 
 一天晚上分別有兩位錄友提交了 30 多道 Java 程式碼，全部衝突，解決衝突處理得我脖子疼[哭]
 
@@ -201,11 +201,11 @@ python 程式碼
 
 確保這種額外檔案不要提交。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210514093430534.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210514093430534.png' width=500 alt=''></img></div>
 
 還有新增不同方法的時候，直接用內文格式寫哪種方法就可以了，不要新增目錄，例如這樣，這樣整篇文章目錄結構就有影響了。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210513102640556.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210513102640556.png' width=500 alt=''></img></div>
 
 前面不要加 `## 前序遍歷（preorder traversal）（疊代（iteration）法）`，直接寫 `前序遍歷（疊代法）` 就可以了。
 
@@ -233,11 +233,11 @@ Go 語言程式碼
 
 甚至發現哪裡有語病，也歡迎提交 PR 來修改，例如下面：就是把「下表」更正為「下標（subscript）」
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210811144337.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210811144337.png' width=500 alt=''></img></div>
 
 不用非要寫出超強的程式碼才能提交 PR，只要發現文章中有任何問題，或者錯別字，都歡迎提交 PR，成為 contributor。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20210927113149.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20210927113149.png' width=500 alt=''></img></div>
 
 ## 特別注意
 

@@ -8,7 +8,7 @@
 
 我知道錄友們在等圖論等太久了，其實我比大家都著急。
 
-![大家一直都在催](https://file1.kamacoder.com/i/algo/20240613105618.png)
+![大家一直都在催](../../pics/algo/20240613105618.png)
 
 圖論完整版目前已經開放在程式碼隨想錄網站：programmercarl.com
 
@@ -20,7 +20,7 @@
 * 拓蹼排序（topological sort）
 * 最短路徑（shortest path）演算法（algorithm）
 
-![](https://file1.kamacoder.com/i/algo/20240613104436.png)
+![](../../pics/algo/20240613104436.png)
 
 **耗時一年之久，程式碼隨想錄圖論終於面世了**!
 
@@ -32,21 +32,21 @@
 
 隨便截一些圖，大家感受一下：
 
-![](https://file1.kamacoder.com/i/algo/20240613104703.png)
+![](../../pics/algo/20240613104703.png)
 
-![](https://file1.kamacoder.com/i/algo/20240613104824.png)
+![](../../pics/algo/20240613104824.png)
 
-![](https://file1.kamacoder.com/i/algo/20240613104852.png)
+![](../../pics/algo/20240613104852.png)
 
-![](https://file1.kamacoder.com/i/algo/20240613104926.png)
+![](../../pics/algo/20240613104926.png)
 
-![](https://file1.kamacoder.com/i/algo/20240613105007.png)
+![](../../pics/algo/20240613105007.png)
 
-![](https://file1.kamacoder.com/i/algo/20240613105030.png)
+![](../../pics/algo/20240613105030.png)
 
-![](https://file1.kamacoder.com/i/algo/20240613105106.png)
+![](../../pics/algo/20240613105106.png)
 
-![](https://file1.kamacoder.com/i/algo/20240613105143.png)
+![](../../pics/algo/20240613105143.png)
 
 具體內容，大家可以去程式碼隨想錄網站（programmercarl.com）去看看，非常精彩！
 
@@ -203,19 +203,19 @@ cout << result[result.size() - 1];
 
 當大家透過程式碼隨想錄提升了程式設計與演算法能力，考上研究所或者找到好工作的時候，對我來說已經是很幸福的事情：
 
-![對筆試幫助大](https://file1.kamacoder.com/i/algo/20230914172536.png)
+![對筆試幫助大](../../pics/algo/20230914172536.png)
 
-![華為 OD 將近滿分](https://file1.kamacoder.com/i/algo/20230914172607.png)
+![華為 OD 將近滿分](../../pics/algo/20230914172607.png)
 
-![研究所複試](https://file1.kamacoder.com/i/algo/20240621103130.png)
+![研究所複試](../../pics/algo/20240621103130.png)
 
-![紅包感謝程式碼隨想錄 366](https://file1.kamacoder.com/i/algo/20231123151310.png)
+![紅包感謝程式碼隨想錄 366](../../pics/algo/20231123151310.png)
 
-![上岸亞馬遜](https://file1.kamacoder.com/i/algo/20240206174151.png)
+![上岸亞馬遜](../../pics/algo/20240206174151.png)
 
-![](https://file1.kamacoder.com/i/algo/20220718094112.png)
+![](../../pics/algo/20220718094112.png)
 
-![](https://file1.kamacoder.com/i/algo/20220718094332.png)
+![](../../pics/algo/20220718094332.png)
 
 至此**圖論內容已完全免費開放在程式碼隨想錄網站（programmercarl.com），造福廣大學習程式設計的錄友們**！
 

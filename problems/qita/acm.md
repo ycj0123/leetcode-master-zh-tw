@@ -11,15 +11,15 @@ KamaCoder 網址：[https://kamacoder.com](https://kamacoder.com)
 
 [知識星球](https://programmercarl.com/other/kstar.html)裡很多錄友的日常打卡中，都表示被 ACM 模式折磨過：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727163624.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727163624.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727163938.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727163938.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727164042.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727164042.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727164151.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727164151.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727164459.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727164459.png' width=500 alt=''></img></div>
 
 所以我正式推出：**KamaCoder**（[https://kamacoder.com](https://kamacoder.com)），**專門幫助大家練習 ACM 模式**。
 
@@ -43,17 +43,17 @@ KamaCoder 網址：[https://kamacoder.com](https://kamacoder.com)
 
 來看看這極簡的介面，沒有亂七八糟的功能，只有刷題！
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727171535.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727171535.png' width=500 alt=''></img></div>
 
 在「狀態」這裡可以看到大家提交的程式碼和評測記錄，目前 KamaCoder（[https://kamacoder.com](https://kamacoder.com)）幾乎無時無刻都有卡友在提交程式碼。
 看看大家週六晚上都在做什麼，刷哪些題目。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230730200451.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230730200451.png' width=500 alt=''></img></div>
 
 
 提交程式碼的介面是這樣的，**目前支援所有主流刷題語言**。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727172727.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727172727.png' width=500 alt=''></img></div>
 
 ## 題解
 
@@ -63,7 +63,7 @@ KamaCoder 網址：[https://kamacoder.com](https://kamacoder.com)
 
 [https://github.com/youngyangyang04/kamacoder-solutions](https://github.com/youngyangyang04/kamacoder-solutions)
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230730200709.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230730200709.png' width=500 alt=''></img></div>
 
 **歡迎去 GitHub 上 star，歡迎 fork，也歡迎來 GitHub 儲存庫（repository）貢獻其他語言版本，成為 contributor**。
 
@@ -71,7 +71,7 @@ KamaCoder 網址：[https://kamacoder.com](https://kamacoder.com)
 
 目前已經有兩位錄友貢獻 C 和 Java 版本了。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230730195613.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230730195613.png' width=500 alt=''></img></div>
 
 期待在 GitHub（https://github.com/youngyangyang04/kamacoder-solutions）的 contributors 上也出現你的頭像。
 

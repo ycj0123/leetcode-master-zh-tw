@@ -5,15 +5,15 @@
 
 平時大家在 LeetCode 上刷題，就是核心程式碼模式，即給你一個函式（function），直接寫函式實作，例如這樣：
 
-![](https://file1.kamacoder.com/i/algo/20231109193631.png)
+![](../../pics/algo/20231109193631.png)
 
 而 ACM 模式，是程式的 header file、`main` 函式、資料的輸入輸出都要自己處理，例如這樣：
 
-![](https://file1.kamacoder.com/i/algo/20231109193743.png)
+![](../../pics/algo/20231109193743.png)
 
 大家可以發現右邊程式碼框什麼都沒有，程式從頭到尾都需要自己實作，本題如果寫完程式碼是這樣的：（細心的錄友可以發現和 LeetCode 上刷題是不一樣的）
 
-![](https://file1.kamacoder.com/i/algo/20231109193931.png)
+![](../../pics/algo/20231109193931.png)
 
 
 **如果大家從一開始學習演算法（algorithm）就一直在 LeetCode 上的話，突然切換到 ACM 模式會非常不適應**。
@@ -21,15 +21,15 @@
 知識星球裡也有很多錄友，因為不熟悉 ACM 模式在面試的過程中吃了不少虧。
 
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727163624.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727163624.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727163938.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727163938.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727164042.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727164042.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727164151.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727164151.png' width=500 alt=''></img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20230727164459.png' width=500 alt=''></img></div>
+<div align="center"><img src='../../pics/algo/20230727164459.png' width=500 alt=''></img></div>
 
 ## 面試究竟怎麼考？
 
@@ -53,7 +53,7 @@
 
 你只要能把 KamaCoder 首頁的 25 道題目都刷完，就把所有的 ACM 輸入輸出方式都練習到位了，不會有任何盲區。
 
-![](https://file1.kamacoder.com/i/algo/20231109195056.png)
+![](../../pics/algo/20231109195056.png)
 
 而且你不用擔心題目難度太大，直接把自己勸退，**KamaCoder 的前 25 道題目都是我精心製作的，難度也是循序漸進的**，大家去刷一下就知道了。
 

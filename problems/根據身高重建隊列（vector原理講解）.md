@@ -35,7 +35,7 @@ public:
 ```
 
 耗時如下：
-![vectorinsert](https://file1.kamacoder.com/i/algo/20201218203611181.png)
+![vectorinsert](../pics/algo/20201218203611181.png)
 
 其直觀上來看陣列（array）的 insert 操作是 O(n) 的，整體程式碼的時間複雜性（time complexity）是 O(n^2)。
 
@@ -68,7 +68,7 @@ public:
 
 耗時如下：
 
-![使用鏈接串列](https://file1.kamacoder.com/i/algo/20201218200756257.png)
+![使用鏈接串列](../pics/algo/20201218200756257.png)
 
 大家都知道對於普通陣列，一旦定義了大小就不能改變，例如 `int a[10];`，這個陣列 a 至多只能放 10 個元素（element），改不了的。
 
@@ -95,7 +95,7 @@ for (int i = 0; i < vec.size(); i++) {
 就是重新申請一個二倍於原陣列大小的陣列，然後把資料都複製過去，並釋放原陣列記憶體（memory）。（對，就是這麼原始粗暴的方法！）
 
 舉一個例子，如圖：
-![vector原理](https://file1.kamacoder.com/i/algo/20201218185902217.png)
+![vector原理](../pics/algo/20201218185902217.png)
 
 原 vector 中的 size 和 capacity 相同都是 3，初始化（initialization）為 1 2 3，此時要 push_back 一個元素 4。
 
@@ -138,7 +138,7 @@ public:
 
 耗時如下：
 
-![vector手動模擬insert](https://file1.kamacoder.com/i/algo/20201218200626718.png)
+![vector手動模擬insert](../pics/algo/20201218200626718.png)
 
 這份程式碼就是不讓 vector 動態擴容，全程我們自己模擬 insert 的操作，大家也可以直觀地看出是一個 O(n^2) 的方法了。
 

@@ -179,7 +179,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 
 
 題目分類大綱如下：
-<img src='https://file1.kamacoder.com/i/algo/20240424172231.png' width=600 alt='二元樹大綱'> </img></div>
+<img src='./pics/algo/20240424172231.png' width=600 alt='二元樹大綱'> </img></div>
 
 1. [關於二元樹，你該了解這些！](./problems/二叉樹理論基礎.md)
 2. [二元樹：二元樹的遞迴遍歷（traversal）](./problems/二叉樹的遞迴遍歷.md)
@@ -221,7 +221,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 <summary><b>回溯演算法</b></summary>
 
 
-<img src='https://file1.kamacoder.com/i/algo/20240424172311.png' width=600 alt='回溯演算法大綱'> </img></div>
+<img src='./pics/algo/20240424172311.png' width=600 alt='回溯演算法大綱'> </img></div>
 
 1. [關於回溯演算法，你該了解這些！](./problems/回溯演算法理論基礎.md)
 2. [回溯演算法：77. 組合（combination）](./problems/0077.組合.md)
@@ -251,7 +251,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 <summary><b>貪心演算法</b></summary>
 
 
-<img src='https://file1.kamacoder.com/i/algo/20210917104315.png' width=600 alt='貪心演算法大綱'> </img></div>
+<img src='./pics/algo/20210917104315.png' width=600 alt='貪心演算法大綱'> </img></div>
 
 1. [關於貪心演算法，你該了解這些！](./problems/貪心演算法理論基礎.md)
 2. [貪心演算法：455. 分發餅乾](./problems/0455.分發餅乾.md)
@@ -284,7 +284,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 
 動態規劃專題已經開始啦，來不及解釋了，夥伴們上車別掉隊！
 
-<img src='https://file1.kamacoder.com/i/algo/动态规划-总结大纲1.jpg' width=500> </img></div>
+<img src='./pics/algo/动态规划-总结大纲1.jpg' width=500> </img></div>
 1. [關於動態規劃，你該了解這些！](./problems/動態規劃理論基礎.md)
 2. [動態規劃：509. 斐波那契數（Fibonacci number）](./problems/0509.斐波那契數.md)
 3. [動態規劃：70. 爬樓梯](./problems/0070.爬楼梯.md)
@@ -298,7 +298,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 
 背包問題（knapsack problem）系列：
 
-<img src='https://file1.kamacoder.com/i/algo/动态规划-背包问题总结.png' width=500 alt='背包問題大綱'> </img></div>
+<img src='./pics/algo/动态规划-背包问题总结.png' width=500 alt='背包問題大綱'> </img></div>
 
 
 11. [動態規劃：0/1 背包問題（0/1 knapsack problem）理論基礎（二維（2D）dp 陣列）](./problems/背包理論基礎01背包-1.md)
@@ -329,7 +329,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 
 股票系列：
 
-<img src='https://file1.kamacoder.com/i/algo/股票问题总结.jpg' width=500 alt='股票問題總結'> </img></div>
+<img src='./pics/algo/股票问题总结_1.jpg' width=500 alt='股票問題總結'> </img></div>
 
 
 32. [動態規劃：121. 買賣股票的最佳時機](./problems/0121.買賣股票的最佳時機.md)
@@ -344,7 +344,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 
 次序列系列：
 
-<img src='https://file1.kamacoder.com/i/algo/动态规划-子序列问题总结.jpg' width=500 alt=''> </img></div>
+<img src='./pics/algo/动态规划-子序列问题总结.jpg' width=500 alt=''> </img></div>
 
 
 41. [動態規劃：300. longest increasing subsequence](./problems/0300.最長上升次序列.md)
@@ -449,7 +449,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 > - **學生**：姓名-學校-年級（**無備註不通過**）
 
 <p align="center">
-  <img src="https://file1.kamacoder.com/i/algo/shuati20250519.jpg" width="200" height="200" />
+  <img src="./pics/algo/shuati20250519.jpg" width="200" height="200" />
 </p>
 
 ---

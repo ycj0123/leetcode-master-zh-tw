@@ -51,7 +51,7 @@
 
 操作方式這樣，我把命令包裝成一個 shell 命令，想傳哪個檔案，直接 `uploadtomyserver`，然後就回傳可以下載的連結，這個檔案也同時傳到了我的伺服器上。
 
-![](https://file1.kamacoder.com/i/algo/20211126165643.png)
+![](../../pics/algo/20211126165643.png)
 
 我也把我的專案程式碼放在了 GitHub 上：
 
@@ -93,11 +93,11 @@ https://github.com/youngyangyang04/fileHttpServer
 
 就是這樣一個非常普通的查詢頁面。
 
-![](https://file1.kamacoder.com/i/algo/20211126160200.png)
+![](../../pics/algo/20211126160200.png)
 
 查詢通過之後，就會展現返現群 QR Code。
 
-![](https://file1.kamacoder.com/i/algo/20211127160558.png)
+![](../../pics/algo/20211127160558.png)
 
 但要部署在伺服器上，因為沒有公開 IP，別人用不了你的服務。
 

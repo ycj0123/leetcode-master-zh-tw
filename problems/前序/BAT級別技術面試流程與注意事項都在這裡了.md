@@ -211,4 +211,4 @@ LeetCode 是專門針對演算法練習的題庫，LeetCode 現在也推出了�
 
 
 -----------------------
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/01二维码.jpg' width=450> </img></div>
+<div align="center"><img src='../../pics/algo/01二维码.jpg' width=450> </img></div>

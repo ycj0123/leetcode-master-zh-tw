@@ -30,7 +30,7 @@
 
 給大家先隨意看一段程式碼，我在註解中其實就已經在講解跨越列表的執行原理了。程式碼使用了 C++ 模板（template）程式設計，這樣介面（interface）支援任意類型的資料（包括自己自訂的類別（class））
 
-![](https://file1.kamacoder.com/i/algo/20221104121454.png)
+![](../../pics/algo/20221104121454.png)
 
 專案網址：**https://github.com/youngyangyang04/Skiplist-CPP**
 
@@ -46,7 +46,7 @@
 
 ## 專案展示
 
-![](https://file1.kamacoder.com/i/algo/20221104121509.png)
+![](../../pics/algo/20221104121509.png)
 
 檔案功能：
 
@@ -108,7 +108,7 @@ make            // complie demo main.cpp
 
 執行螢幕截圖：（其中展示了插入資料，刪除資料，展示資料等等功能）
 
-![](https://file1.kamacoder.com/i/algo/20221104121525.png)
+![](../../pics/algo/20221104121525.png)
 
 如果想自己寫程式使用這個 KV storage engine，只需要在你的 CPP 檔案中 `#include "skiplist.h"` 就可以了。
 

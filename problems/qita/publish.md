@@ -10,9 +10,9 @@
 
 先奉上幾張書的照片：（封面最終選定為梵谷的畫作《阿姆斯特丹，聖馬迪拉莫，1888，海景》）
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20220926101859.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20220926101859.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20220926101946.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20220926101946.png' width=500 alt=''> </img></div>
 
 其實在去年，也就是 2020 年我就已經將這本書的內容寫好了，本以為可以很快出版，但我還是嚴重低估了寫書的工作量。
 
@@ -24,7 +24,7 @@
 
 這是我自己平時書桌的場景：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211210175809.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211210175809.png' width=500 alt=''> </img></div>
 
 這兩年可以說我沒有什麼娛樂活動，業餘生活極其枯燥，都花費在這本書上了，其中艱辛只有自己知道。
 
@@ -32,7 +32,7 @@
 
 寫這本書用了兩年，**而真正消化、理解、研究這些演算法（algorithm）知識，我用了整整十年**，十年前我就開始寫演算法文章，試圖闖進演算法的大門，這一寫就是十年。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209181522.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209181522.png' width=500 alt=''> </img></div>
 
 **真的是十年所學，兩年打磨，終成《程式碼隨想錄》！**
 
@@ -48,37 +48,37 @@
 
 與此同時，也幾乎每天都會有錄友專門私訊我來表達自己的感激：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209182433.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209182433.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209182703.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209182703.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209182735.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209182735.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183109.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183109.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183144.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183144.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183638.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183638.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183233.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183233.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183324.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183324.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183356.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183356.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183431.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183431.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183003.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183003.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209182519.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209182519.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183451.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183451.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209183524.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209183524.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209182638.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209182638.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209182809.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209182809.png' width=500 alt=''> </img></div>
 
 這些都是大家與「程式碼隨想錄」之間的故事，也歡迎大家在文章留言，說一說自己和「程式碼隨想錄」之間的故事。
 
@@ -136,14 +136,14 @@
 
 購買方式，可以掃描下方 QR Code，也可以直接[點擊這裡，京東直達](https://union-click.jd.com/jdc?e=&p=JF8BAMQJK1olXg8EUVhVCkkWAV8IGV8WVAICU24ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYAUF1UDEsQHDZNRwYlGFh6NVkPcRdyHWwMZRlLHlQDUj02eEcbM244GFIXWQYAUV5VOHsXBF9edVsUXAcDVVtdDUgnAl8IHFkdXw4BU1lfCkoRM2gIEmtIFVpKAxVtOHsUM184G2sWbURsUVpcCEMVAjgIHAxBWFYAAVdfXE8QBGkBGQsdCQEFVgttCkoWB2Y4)
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211213180559.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211213180559.png' width=500 alt=''> </img></div>
 
 
 ## 目錄
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211211092942.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211211092942.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/海报.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/海报.png' width=500 alt=''> </img></div>
 
 這裡不少錄友會問，書的內容和 GitHub：https://github.com/youngyangyang04/leetcode-master，以及網站：programmercarl.com 有什麼區別呢？
 
@@ -153,11 +153,11 @@
 
 **《程式碼隨想錄》的排版看起來非常舒服，會讓你發現原來學演算法會上癮！**
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211210211416.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211210211416.png' width=500 alt=''> </img></div>
 
 《程式碼隨想錄》的推薦語，我都是頗為用心，不是隨隨便便找個人寫一寫推薦語來湊數的。
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211210155922.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211210155922.png' width=500 alt=''> </img></div>
 
 哈工大計算機王院長，百度傑出架構師猛哥，騰訊專家工程師強哥，王道論壇創辦人風華哥，**他們是在我學習工作的不同階段裡對我影響非常大的頂級大神**。
 
@@ -175,13 +175,13 @@
 
 《程式碼隨想錄》這就要和大家見面了，其實很多錄友已經迫不及待：
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211204121717.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211204121717.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211204215908.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211204215908.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211205164800.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211205164800.png' width=500 alt=''> </img></div>
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211209100401.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211209100401.png' width=500 alt=''> </img></div>
 
 這本書原價還挺貴的（畢竟比較厚），但這裡申請到了京東五折優惠，大家可以趕快下手了。
 
@@ -191,7 +191,7 @@
 
 購買方式，可以掃描下方 QR Code，也可以直接[點擊這裡，京東直達](https://union-click.jd.com/jdc?e=&p=JF8BAMQJK1olXg8EUVhVCkkWAV8IGV8WVAICU24ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYAUF1UDEsQHDZNRwYlGFh6NVkPcRdyHWwMZRlLHlQDUj02eEcbM244GFIXWQYAUV5VOHsXBF9edVsUXAcDVVtdDUgnAl8IHFkdXw4BU1lfCkoRM2gIEmtIFVpKAxVtOHsUM184G2sWbURsUVpcCEMVAjgIHAxBWFYAAVdfXE8QBGkBGQsdCQEFVgttCkoWB2Y4)
 
-<div align="center"><img src='https://file1.kamacoder.com/i/algo/20211213180559.png' width=500 alt=''> </img></div>
+<div align="center"><img src='../../pics/algo/20211213180559.png' width=500 alt=''> </img></div>
 
 最後也感謝錄友們的陪伴，真心希望大家都有一個好的前程！
 
