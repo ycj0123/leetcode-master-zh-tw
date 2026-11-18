@@ -114,7 +114,7 @@
 
 * 關於 KMP 演算法（KMP algorithm），都知道使用前綴（prefix）表進行回退，可什麼是前綴表，為什麼一定要用前綴表，根據前綴表回退有幾種方式，這些卻沒有說清楚，導致最後大家看得一頭霧水。
 
-* 關於二元樹（binary tree），不同的遍歷順序其遞迴函數（recursive function）究竟如何安排，遞迴函數什麼時候需要轉回值（return value），什麼時候不用轉回值，什麼情況下分別使用前序遍歷（preorder traversal）、中序橫過（inorder traversal）、後序遍歷（post-order traversal），疊代（iteration）法又要如何實作，這些都決定了對二元樹的理解是否到位。
+* 關於二元樹（binary tree），不同的遍歷順序其遞迴函數（recursive function）究竟如何安排，遞迴函數什麼時候需要回傳值（return value），什麼時候不用回傳值，什麼情況下分別使用前序遍歷（preorder traversal）、中序橫過（inorder traversal）、後序遍歷（post-order traversal），疊代（iteration）法又要如何實作，這些都決定了對二元樹的理解是否到位。
 
 同時我針對每一個專題的特點，整理出其通用的解法套路。
 
