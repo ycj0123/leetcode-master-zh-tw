@@ -37,7 +37,6 @@
 | termination condition | 終止條件 | 終止條件 | 41 |
 | edge | 邊緣 | 邊緣 | 40 |
 | recursive function | 遞迴函數 | 遞迴函數 | 39 |
-| return value | 轉回值 | 轉回值 | 38 |
 | state | 狀態 | 狀態；態；地位 | 38 |
 | greedy | 貪心法 | 貪心[法] | 37 |
 | queue | 佇列 | 隊列；佇列；排隊 | 37 |
