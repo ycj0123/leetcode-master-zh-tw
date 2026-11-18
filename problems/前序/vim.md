@@ -80,7 +80,7 @@ sh install.sh
 目前 PowerVim 支援如下功能，這些都是自己組態的：
 
 * CPP、PHP、Java 程式碼補全，如果需要其他語言補全，可自行組態關鍵字（keyword）串列在 `PowerVim/.vim/dictionary` 目錄（directory）下
-* 顯示檔案函式（function）變數（variable）串列
+* 顯示檔案函數（function）變數（variable）串列
 * MiniBuf 顯示打開過的檔案
 * 語法高亮度顯示支援 C++ (including C++11)、Go、Java、PHP、HTML、JSON 和 Markdown
 * 顯示 Git 狀態，和主幹或分支（branch）的添加修改刪除的情況

@@ -9,11 +9,11 @@ LeetCode 已經將劍指 Offer 題目下架，所以我在 KamaCoder 上給大�
 
 [KamaCoder 題目連結](https://kamacoder.com/problempage.php?pid=1064)
 
-給定一個字串（string）s，它包含小寫字母和數字字元（character），請編寫一個函式（function），將字串中的字母字元保持不變，而將每個數字字元替換為 number。 
+給定一個字串（string）s，它包含小寫字母和數字字元（character），請編寫一個函數（function），將字串中的字母字元保持不變，而將每個數字字元替換為 number。 
 
-例如，對於輸入字串 "a1b2c3"，函式應該將其轉換為 "anumberbnumbercnumber"。  
+例如，對於輸入字串 "a1b2c3"，函數應該將其轉換為 "anumberbnumbercnumber"。  
 
-對於輸入字串 "a5b"，函式應該將其轉換為 "anumberb"
+對於輸入字串 "a5b"，函數應該將其轉換為 "anumberb"
 
 輸入：一個字串 s,s 僅包含小寫字母和數字字元。
 
@@ -91,7 +91,7 @@ int main() {
 
 ```
 
-* 時間複雜性（time complexity）：O(n)
+* 時間複雜度（time complexity）：O(n)
 * 空間複雜度（space complexity）：O(1)
 
 此時算上本題，我們已經做了七道 two pointers 相關的題目了，分別是：

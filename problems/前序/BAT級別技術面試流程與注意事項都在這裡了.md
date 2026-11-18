@@ -71,9 +71,9 @@ LeetCode 是專門針對演算法練習的題庫，LeetCode 現在也推出了�
 
 **簡單程式碼一定要可以手寫出來，不要過於依賴 IDE 的自動完成（autocomplete）。**
 
-例如寫一個反轉（reverse）二元樹（binary tree）的函式（function），很多同學在刷了很多 LeetCode 上面的題目
+例如寫一個反轉（reverse）二元樹（binary tree）的函數（function），很多同學在刷了很多 LeetCode 上面的題目
 
-但是 LeetCode 上一般都把二元樹的結構已經定義好了，所以可以上來直接寫函式的實作
+但是 LeetCode 上一般都把二元樹的結構已經定義好了，所以可以上來直接寫函數的實作
 
 但是面試的時候要在白紙上寫程式碼，一些同學一下子不知道二元樹的定義應該如何寫，不是結構體定義得不對，就是忘了如何寫指標（pointer）。
 

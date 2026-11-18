@@ -51,7 +51,7 @@ int main() {
 
 我用的是 Linux 下 gcc 來編譯的，估計貼到其他編譯器也沒問題。
 
-程式碼中可以看出，其實就是定義一個 `main` 函式（function），構造一個輸入範例，然後定義一個 `solution` 變數，呼叫 `minCostClimbingStairs` 函式就可以了。
+程式碼中可以看出，其實就是定義一個 `main` 函數（function），構造一個輸入範例，然後定義一個 `solution` 變數，呼叫 `minCostClimbingStairs` 函數就可以了。
 
 此時大家就可以隨意構造測試資料（test data），然後想怎麼印出日誌就怎麼印出日誌，沒有找不出的錯誤（bug）。
 

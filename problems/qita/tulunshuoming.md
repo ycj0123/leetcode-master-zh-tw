@@ -4,9 +4,9 @@
 
 非常多錄友在催更圖論（graph theory），同時大家也回饋面試中深度優先搜尋（depth-first search, DFS）與廣度優先搜尋（breadth-first search, BFS）也是最近常考的類型。
 
-其實在《程式碼隨想錄》中的二元樹（binary tree）和回溯演算法（backtracking algorithm）章節中已經講過深度優先搜尋與廣度優先搜尋，二元樹的遍歷（traversal）就是深度優先搜尋與廣度優先搜尋在二元樹結構上的應用，而回溯演算法本身就是深度優先搜尋，只不過利用其回溯（backtracking）的過程。
+其實在《程式碼隨想錄》中的二元樹（binary tree）和回溯演算法（backtracking algorithm）章節中已經講過DFS與BFS，二元樹的遍歷（traversal）就是DFS與BFS在二元樹結構上的應用，而回溯演算法本身就是DFS，只不過利用其回溯（backtracking）的過程。
 
-那麼在圖論中，深度優先搜尋與廣度優先搜尋就是在圖（graph）上的遍歷，圖的儲存方式一般是相鄰串列（adjacency list）和相鄰矩陣（adjacency matrix）。
+那麼在圖論中，DFS與BFS就是在圖（graph）上的遍歷，圖的儲存方式一般是相鄰串列（adjacency list）和相鄰矩陣（adjacency matrix）。
 
 我已經在更新圖論內容了，不過還沒有更新完，**之前計畫是把更新完的部分先分享給[訓練營](./xunlianying.html)和 [知識星球](./kstar.md) 錄友，等全部更新完之後再完整地分享到網站上**。
 
@@ -16,7 +16,7 @@
 
 （**注意圖論章節還沒有更新完，還有更精彩的內容在路上**）
 
-<!-- ### 深度優先搜尋與廣度優先搜尋 -->
+<!-- ### DFS與BFS -->
 
 <!-- * [圖論：深度優先搜尋理論基礎](../圖論深搜理論基礎.md) -->
 <!-- * [圖論：797.所有可能的路徑](../0797.所有可能的路徑.md) -->

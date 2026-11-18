@@ -37,9 +37,9 @@ public:
 耗時如下：
 ![vectorinsert](../pics/algo/20201218203611181.png)
 
-其直觀上來看陣列（array）的 insert 操作是 O(n) 的，整體程式碼的時間複雜性（time complexity）是 O(n^2)。
+其直觀上來看陣列（array）的 insert 操作是 O(n) 的，整體程式碼的時間複雜度（time complexity）是 O(n^2)。
 
-這麼一分析好像和版本二鏈接串列（linked list）實作的時間複雜性是一樣的啊，為什麼提交之後效率會差距這麼大呢？
+這麼一分析好像和版本二鏈接串列（linked list）實作的時間複雜度是一樣的啊，為什麼提交之後效率會差距這麼大呢？
 
 ```CPP
 // 版本二，使用 list（鏈接串列）
@@ -103,7 +103,7 @@ for (int i = 0; i < vec.size(); i++) {
 
 **同時也注意此時 capacity 和 size 的變化，關鍵的地方我都標紅了**。
 
-而在[貪心演算法：根據身高重建佇列](https://programmercarl.com/0406.根据身高重建队列.html)中，我們使用 vector 來做 insert 的操作，此時大家可會發現，**雖然表面上複雜度是 O(n^2)，但是其底層都不知道額外做了多少次全量複製了，所以算上 vector 的底層複製，整體時間複雜性可以認為是 O(n^2 + t × n) 級別的，t 是底層複製的次數**。
+而在[貪心演算法：根據身高重建佇列](https://programmercarl.com/0406.根据身高重建队列.html)中，我們使用 vector 來做 insert 的操作，此時大家可會發現，**雖然表面上複雜度是 O(n^2)，但是其底層都不知道額外做了多少次全量複製了，所以算上 vector 的底層複製，整體時間複雜度可以認為是 O(n^2 + t × n) 級別的，t 是底層複製的次數**。
 
 那麼是不是可以直接確定好 vector 的大小，不讓它在動態擴容了，例如在[貪心演算法：根據身高重建佇列](https://programmercarl.com/0406.根据身高重建队列.html)中已經給出了有 `people.size` 這麼多的人，可以定義好一個固定大小的 vector，這樣我們就可以控制 vector，不讓它底層動態擴容。
 

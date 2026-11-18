@@ -70,7 +70,7 @@
 
 這些知識點同樣是地雷區，就是大家在看教學或者演算法講解的時候，作者避而不談的部分。
 
-例如：深搜為什麼有兩種寫法，同樣的廣搜為什麼有一種寫法逾時了，bellman_ford 為什麼要鬆弛 n - 1 次，negative cycle 對最短路徑求解的影響等等。
+例如：深搜為什麼有兩種寫法，同樣的廣搜為什麼有一種寫法逾時了，bellman_ford 為什麼要鬆弛 n - 1 次，負環（negative cycle） 對最短路徑求解的影響等等。
 
 這一點大家在閱讀程式碼隨想錄圖論的時候，**可以感受到我對細節講解的掌握程度**。
 
@@ -100,7 +100,7 @@
 * dijkstra 堆積最佳化版
 * Bellman_ford
 * Bellman_ford 佇列最佳化演算法（又名 SPFA）
-* bellman_ford 演算法判斷 negative cycle
+* bellman_ford 演算法判斷 負環
 * bellman_ford 之單源有限最短路徑
 * Floyd-Warshall 演算法精講
 * 啟發式搜尋：A* 演算法

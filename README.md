@@ -73,9 +73,9 @@
     * [Claude Code OpAPI 接入](https://github.com/youngyangyang04/chatgpt-claude-api)
 
 * 演算法效能分析
-    * [關於時間複雜性（time complexity），你不知道的都在這裡！](./problems/前序/時間複雜性.md)
+    * [關於時間複雜度（time complexity），你不知道的都在這裡！](./problems/前序/時間複雜度.md)
     * [O(n) 的演算法居然逾時了，此時的 n 究竟是多大？](./problems/前序/演算法逾時.md)
-    * [透過一道面試題目，講一講遞迴（recursion）演算法的時間複雜性！](./problems/前序/遞迴演算法的時間複雜性.md)
+    * [透過一道面試題目，講一講遞迴（recursion）演算法的時間複雜度！](./problems/前序/遞迴演算法的時間複雜度.md)
     * [關於空間複雜度（space complexity），可能有幾個疑問？](./problems/前序/空間複雜度.md)
     * [遞迴演算法的時間與空間複雜度分析！](./problems/前序/遞迴演算法的時間與空間複雜度分析.md)
     * [刷了這麼多題，你了解自己程式碼的記憶體（memory）消耗嗎？](./problems/前序/記憶體消耗.md)
@@ -143,9 +143,9 @@
 </details>
 
 <details>
-<summary><b>two pointers</b></summary>
+<summary><b>雙指標（two pointers）</b></summary>
 
-two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
+雙指標 基本都是應用在陣列、字串與鏈接串列的題目上
 
 1. [陣列：27. 移除元素](./problems/0027.移除元素.md)
 2. [字串：344. 反轉字串](./problems/0344.反轉字串.md)
@@ -364,7 +364,7 @@ two pointers 基本都是應用在陣列、字串與鏈接串列的題目上
 </details>
 
 <details>
-<summary><b>monotonic stack</b></summary>
+<summary><b>單調堆疊（monotonic stack）</b></summary>
 
 
 1. [monotonic stack：739. 每日溫度](./problems/0739.每日溫度.md)

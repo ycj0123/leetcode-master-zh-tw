@@ -9,9 +9,9 @@ LeetCode 已經將劍指 Offer 題目下架，所以在 KamaCoder 上給大家�
 
 [KamaCoder 題目連結](https://kamacoder.com/problempage.php?pid=1065)
 
-字串的右旋轉操作是把字串尾部的若干個字元（character）轉移到字串的前面。給定一個字串 s 和一個正整數（positive integer） k，請編寫一個函式（function），將字串中的後面 k 個字元移到字串的前面，實作字串的右旋轉操作。
+字串的右旋轉操作是把字串尾部的若干個字元（character）轉移到字串的前面。給定一個字串 s 和一個正整數（positive integer） k，請編寫一個函數（function），將字串中的後面 k 個字元移到字串的前面，實作字串的右旋轉操作。
 
-例如，對於輸入字串 "abcdefg" 和整數（integer） 2，函式應該將其轉換為 "fgabcde"。
+例如，對於輸入字串 "abcdefg" 和整數（integer） 2，函數應該將其轉換為 "fgabcde"。
 
 輸入：輸入共包含兩行，第一行為一個正整數 k，代表右旋轉的位數。第二行為字串 s，代表需要旋轉的字串。
 
