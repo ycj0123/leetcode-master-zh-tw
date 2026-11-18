@@ -19,7 +19,7 @@ ACM 模式是最考察候選人對程式碼細節把控程度的，圖的構成�
 
 **如果連相鄰串列和相鄰矩陣都不知道或者寫不出來的話，可以說圖論沒有入門**。 
 
-舉個例子，對於 LeetCode [797.所有可能的路徑](https://leetcode.cn/problems/all-paths-from-source-to-target/description/)，錄友了解深度優先搜尋（depth-first search, DFS）之後，這道題目就是模板（template）題，是送分題。 
+舉個例子，對於 LeetCode [797.所有可能的路徑](https://leetcode.com/problems/all-paths-from-source-to-target/description/)，錄友了解深度優先搜尋（depth-first search, DFS）之後，這道題目就是模板（template）題，是送分題。 
 
 如果面試的時候出一道原題（筆試都是 ACM 模式，部分面試也是 ACM 模式），不少熟練刷 LeetCode 的錄友都難住了，**因為不知道圖應該怎麼存，也不知道自己存的圖如何去遍歷（traversal）**。
 

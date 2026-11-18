@@ -24,11 +24,11 @@
 ## 🔗 快速入口
 
 - 📘 **出版書籍**：[《程式碼隨想錄》](https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BASMJK1olXwABU1pUCU0SCl8IGV8WVAICU24ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYAUF1UDEsQHDZNRwYlVEBGPAIccE51dQ1cfjpVCnsHUjYbTkcbM244GFIXWQYAUV5VOHsXBF9adYOj696n5UKJosTCi_g4GmsVWwILVFhZCUIXBWgMK1wVVDZfHAIVXwAnM18LK1wVVBIEJh8PHE1lM18IK1glXQcCVVpYDU8RB2YUG18QXA4BSF5bDEIXBWsJHlgVXAEyVl9cDEInM7GFqyYQWHkHVBY1TUxoBmZtXT7L0LYTKClfCkMWEl8BGCMVCkFGBg01Dg5zSgcJUCxeD2AKNRwzChFKfGx3HQtCDnN3XV0aDB1KM2o4G10VXzY)
-- 🧾 **PDF 精講**：[演算法精講 PDF](https://programmercarl.com/qita/algo_pdf.html)
+- 🧾 **PDF 精講**：[演算法精講 PDF](./problems/qita/algo_pdf.md)
 - 🎬 **演算法公開課**：[170 期硬核影片](https://www.bilibili.com/video/BV1fA4y1o715)
 - 🧠 **卡碼筆記**：[最強面試必考題（八股文）](https://notes.kamacoder.com/)
 - 👥 **學習社群**：專案 / 面試經驗 / 學習方法 / 面試技巧 → 加入 [「程式碼隨想錄」知識星球](https://programmercarl.com/other/kstar.html)
-- 🤝 **參與貢獻**：本儲存庫講解以 C++ 為主，含 Java / Python / Go / JS 多語言實作。想點亮頭像 👉 [如何提交程式碼](https://www.programmercarl.com/qita/join.html) · [致謝貢獻者](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)
+- 🤝 **參與貢獻**：本儲存庫講解以 C++ 為主，含 Java / Python / Go / JS 多語言實作。想點亮頭像 👉 [如何提交程式碼](./problems/qita/join.md) · [致謝貢獻者](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)
 - 📢 **轉載須知**：全部為原創，引用請標註來源；惡意搬運將依法維權。
 
 ---
@@ -424,7 +424,7 @@
 ## 🙌 參與貢獻
 
 - 歡迎提交 **題解修訂 / 多語言實作 / 文件勘誤 / 新增練習**
-- 請先閱讀：[如何提交與協作](https://www.programmercarl.com/qita/join.html)
+- 請先閱讀：[如何提交與協作](./problems/qita/join.md)
 - 致謝所有貢獻者 → [Contributors](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)
 
 ---

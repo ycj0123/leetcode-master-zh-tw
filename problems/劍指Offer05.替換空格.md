@@ -96,12 +96,12 @@ int main() {
 
 此時算上本題，我們已經做了七道 two pointers 相關的題目了，分別是：
 
-* [27.移除元素](https://programmercarl.com/0027.移除元素.html)
-* [15.三數之和](https://programmercarl.com/0015.三数之和.html)
-* [18.四數之和](https://programmercarl.com/0018.四数之和.html)
-* [206.翻轉鏈接串列（linked list）](https://programmercarl.com/0206.翻转链表.html)
-* [142.環形鏈接串列 II](https://programmercarl.com/0142.环形链表II.html)
-* [344.反轉（reverse）字串](https://programmercarl.com/0344.反转字符串.html)
+* [27.移除元素](./0027.移除元素.md)
+* [15.三數之和](./0015.三數之和.md)
+* [18.四數之和](./0018.四數之和.md)
+* [206.翻轉鏈接串列（linked list）](./0206.反轉鏈接串列.md)
+* [142.環形鏈接串列 II](./0142.環形鏈接串列II.md)
+* [344.反轉（reverse）字串](./0344.反轉字串.md)
 
 ## 拓展
 

@@ -67,7 +67,7 @@ KamaCoder 網址：[https://kamacoder.com](https://kamacoder.com)
 
 **歡迎去 GitHub 上 star，歡迎 fork，也歡迎來 GitHub 儲存庫（repository）貢獻其他語言版本，成為 contributor**。
 
-如果不懂如何向開放原始碼（open source）專案提交程式碼，[可以看這裡](https://www.programmercarl.com/qita/join.html)
+如果不懂如何向開放原始碼（open source）專案提交程式碼，[可以看這裡](./join.md)
 
 目前已經有兩位錄友貢獻 C 和 Java 版本了。
 
