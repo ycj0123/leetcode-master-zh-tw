@@ -30,9 +30,9 @@ LeetCode 上的題目，輸入測試案例就給了一個陣列（array），怎
 
 但從序列推導到二元樹，很多同學就看不懂了，這得怎麼轉換呢。
 
-我在 [關於二元樹，你該了解這些！](https://mp.weixin.qq.com/s/q_eKfL8vmSbSFcptZ3aeRA)已經詳細講過，二元樹可以有兩種儲存方式，一種是 鏈式儲存（linked storage），另一種是順序儲存器（sequential storage）。
+我在 [關於二元樹，你該了解這些！](https://mp.weixin.qq.com/s/q_eKfL8vmSbSFcptZ3aeRA)已經詳細講過，二元樹可以有兩種儲存方式，一種是鏈式儲存（linked storage），另一種是順序儲存器（sequential storage）。
 
-鏈式儲存 就是大家熟悉的二元樹，用指標（pointer）指向左右子節點（child node）。
+鏈式儲存就是大家熟悉的二元樹，用指標（pointer）指向左右子節點（child node）。
 
 順序儲存器就是用一個陣列來存二元樹，其方式如圖所示：
 
@@ -186,7 +186,7 @@ int main() {
 
 ![](../../pics/algo/20210914230045.png)
 
-可以看出和題目中輸入測試案例這個圖是一模一樣的。只不過題目中圖沒有把 空節點（null node） 畫出來而已。
+可以看出和題目中輸入測試案例這個圖是一模一樣的。只不過題目中圖沒有把空節點（null node）畫出來而已。
 
 ![](../../pics/algo/20210914230118.png)
 
