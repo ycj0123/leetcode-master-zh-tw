@@ -15,6 +15,18 @@
   <a href="https://github.com/youngyangyang04/leetcode-master/graphs/contributors"><img alt="contributors" src="https://img.shields.io/github/contributors/youngyangyang04/leetcode-master?style=flat&label=Contributors"></a>
 </p>
 
+> [!NOTE]
+> **繁體中文（台灣華語）整理說明與版權聲明**
+>
+> 本儲存庫由原專案 [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) 透過 AI 輔助翻譯並整理為**繁體中文（台灣華語）**，主要依據台灣國家教育研究院建置與營運之[樂詞網](https://terms.naer.edu.tw/)名詞庫，並結合台灣軟體工程師的慣用詞彙進行調整（相關詞表可參考 [NAER_GLOSSARY.md](./NAER_GLOSSARY.md) 與 [GLOSSARY.md](./GLOSSARY.md)）。
+>
+> 為貼近台灣工程師的閱讀與開發習慣，本儲存庫亦包含以下調整：
+> - **術語雙語標註**：各篇文件於專業術語首次出現時附註英文原文（常見縮寫詞如 `DFS`、`BFS`、`DP`、`BST` 等於首次展開後改以英文縮寫呈現）。
+> - **圖片本機化與壓縮**：將原本的外部圖床圖片全數下載並壓縮存放於本機 `pics/` 目錄，確保在 GitHub 頁面上能穩定正常顯示。
+> - **連結本地化**：將題目連結由中國大陸站（`leetcode.cn`）更新為台灣工程師慣用的英文國際版網站（`leetcode.com`），並將原網站站內連結轉為本儲存庫之相對路徑。
+>
+> **版權聲明**：本儲存庫內所有演算法教學內容、圖解與程式碼之著作權與 Credit 皆屬於原作者（[youngyangyang04](https://github.com/youngyangyang04/leetcode-master)），本人僅進行語系翻譯與閱讀體驗整理。
+
 > 一套 **循序漸進**、**少走彎路** 的刷題計畫。
 > 題目已按知識脈絡與難度 **排好順序**，每題附 **圖文題解 + 影片解說**。
 > 適合從零到進階、系統化掌握資料結構與演算法。
